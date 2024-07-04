@@ -1,11 +1,11 @@
 # Gurup55
 Google bootcamp 2024
 
-Takım İsmi
+#Takım İsmi
 
 U55 Unity Takımı
 
-Takım Üyeleri
+#Takım Üyeleri
 
 Abdullah Ulutaş - Product Owner
 Afra Çelik - Scrum Master
