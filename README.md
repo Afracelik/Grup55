@@ -1,4 +1,4 @@
-# Gurup55
+# Grup55
 Google bootcamp 2024
 
 #Takım İsmi
