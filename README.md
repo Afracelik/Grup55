@@ -39,7 +39,7 @@ The life dept; orta çağ fantezi türünde, 3D, birincil şahıs bakış açıs
 ![Google link](https://github.com/Afracelik/Grup55/blob/main/images/sprint1-%20wp.png)<br/>
 ![Google link](https://github.com/Afracelik/Grup55/blob/main/images/sprint1-%20wp2.png)<br/>
 
-- **Sprint board update**: Sprint board screenshotları:<br/>
+- **Sprint board update**: Sprint board ekran görüntüsü:<br/>
 
 ![Google link](https://github.com/Afracelik/Grup55/blob/main/images/trello%20sprint1.png)<br/>
 
