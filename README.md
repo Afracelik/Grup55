@@ -29,7 +29,7 @@ The life dept; orta çağ fantezi türünde, 3D, birincil şahıs bakış açıs
 
 # Sprint 1
 - Sprint içinde tamamlanması tahmin edilen puan: 100 Puan
-- **Puan tamamlama mantığı:** Toplamda proje boyunca tamamlanması gereken 500 puanlık backlog bulunmaktadır. Puanlama sistemi şu şekildedir: 1 sprint (150), 2 sprint (150), 3 sprint (200). 1 sprintte belirlenen hedefe ulaşılmıştır 💫.
+- **Puan tamamlama mantığı:** Toplamda proje boyunca tamamlanması gereken 500 puanlık backlog bulunmaktadır. Puanlama sistemi şu şekildedir: 1 sprint (150), 2 sprint (150), 3 sprint (200). 1 sprintte ekip ardaşlarının görevlerini bitirmesiyle toplanan puan 150, belirlenen hedefe ulaşılmıştır 💫.
 
 - **Daily Scrum:** Daily Scrum görüşmelerimizi WhatsApp üzerinden yapmaya karar verilmiştir. Buradaki çalışmalar Discord üzerinden toplanarak yapılmıştır. Daily Scrum görüşme ve toplantı örneği aşağıdaki görsellerde bulunmaktadır.<br/>
 - Sprint 1 Daily Scrum Chats:
