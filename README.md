@@ -1,5 +1,6 @@
 # Grup55
 Google bootcamp 2024
+## projenin amacı
 
 # Takım İsmi
 
