@@ -10,7 +10,7 @@ Abdülkadir Erdek - Developer <br/>
 # Ürün İsmi
 The Life Dept
 # Product Backlog URL
-![U55 Unity Trello Backlog Board]([https://github.com/Afracelik/Grup55/blob/main/images/Ekran%20Resmi%202024-07-07%2015.51.34.png](https://trello.com/b/mdPIUhbD/team-board))<br/>
+[U55 Unity Trello Backlog Board](https://trello.com/b/mdPIUhbD/team-board!)<br/>
 
 ## projenin amacı (alt başlık)
 **kalın** <br/>
