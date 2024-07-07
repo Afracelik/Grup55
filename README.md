@@ -45,7 +45,7 @@ The life dept; orta çağ fantezi türünde, 3D, birincil şahıs bakış açıs
 
 - **Oyun Durumu:** Ekran görüntüleri:
 ![Google link](https://github.com/Afracelik/Grup55/blob/main/images/unity1.png)<br/>
-Oyunda kullanacağımız asetler üzerinde çalımalarımız:<br/>
+Oyunda kullanacağımız asetlerden birkaçı üzerinde çalımalarımız:<br/>
 ![Google link](https://github.com/Afracelik/Grup55/blob/main/images/unity%202.png)<br/>
 ![Google link](https://github.com/Afracelik/Grup55/blob/main/images/unity%203.png)<br/>
 
