@@ -27,10 +27,34 @@ The life dept; orta çağ fantezi türünde, 3D, birincil şahıs bakış açıs
 - Hikaye ve deneyim sevenler<br/>
 - Lineer ilerlemeli oyun sevenler<br/>
 
-## projenin amacı (alt başlık)
-**kalın** <br/>
-*italik*
-'git status' <br/>
-![Google link](https://github.com/Afracelik/Grup55/blob/main/images/Ekran%20Resmi%202024-07-07%2015.51.34.png)<br/>
+# Sprint 1
+- Sprint içinde tamamlanması tahmin edilen puan: 100 Puan
+- **Puan tamamlama mantığı:** Toplamda proje boyunca tamamlanması gereken 500 puanlık backlog bulunmaktadır. Puanlama sistemi şu şekildedir: 1 sprint (150), 2 sprint (150), 3 sprint (200). 1 sprintte belirlenen hedefe ulaşılmıştır 💫.
+
+- **Daily Scrum:** Daily Scrum görüşmelerimizi WhatsApp üzerinden yapmaya karar verilmiştir. Buradaki çalışmalar Discord üzerinden toplanarak yapılmıştır. Daily Scrum görüşme ve toplantı örneği aşağıdaki görsellerde bulunmaktadır.<br/>
+- Sprint 1 Daily Scrum Chats:
+  
+![Google link](https://github.com/Afracelik/Grup55/blob/main/images/sprin1-discord2.png)<br/>
+![Google link](https://github.com/Afracelik/Grup55/blob/main/images/sprin1.png)<br/>
+![Google link](https://github.com/Afracelik/Grup55/blob/main/images/sprint1-%20wp.png)<br/>
+![Google link](https://github.com/Afracelik/Grup55/blob/main/images/sprint1-%20wp2.png)<br/>
+
+- **Sprint board update**: Sprint board screenshotları:<br/>
+
+![Google link](https://github.com/Afracelik/Grup55/blob/main/images/trello%20sprint1.png)<br/>
+
+- **Ürün Durumu:** Ekran görüntüleri:
+![Google link](https://github.com/Afracelik/Grup55/blob/main/images/unity1.png)<br/>
+![Google link](https://github.com/Afracelik/Grup55/blob/main/images/unity%202.png)<br/>
+![Google link](https://github.com/Afracelik/Grup55/blob/main/images/unity%203.png)<br/>
+
+- **Sprint Review:** Map tasarımı,  karakterin kullanımı ve oyunun 3D olarak yapılmasına karar verilmiştir.<br/>
+- **Sprint Review katılımcıları:** Afra Çelik - Abdullah Ulutaş - Zeynep Sena Tatlı - Abide Begüm Somuncuoğlu - Abdülkadir Erdek.
+
+- **Sprint Retrospective:**
+Çalışmada hızlanmaya karar verilmiştir.
+Takım içindeki görev dağılımıyla ilgili düzenleme yapılması kararı alınmıştır.
+Takım üyelerinin gelecek sprintlerde aktif olması gerektiğine vurgu yapılmıştır.
+Map üzerinde yoğunlaşılmasına karar verilmiştir.
 
 
