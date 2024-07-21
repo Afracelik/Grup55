@@ -59,4 +59,18 @@ Takım içindeki görev dağılımıyla ilgili düzenleme yapılması kararı al
 Takım üyelerinin gelecek sprintlerde aktif olması gerektiğine vurgu yapılmıştır.
 Map üzerinde yoğunlaşılmasına karar verilmiştir.
 
+# Sprint 2
+- 2 sprintte ekip ardaşlarının görevlerini bitirmesiyle toplanan puan 150, belirlenen hedefe ulaşılmıştır 💫.
+
+- **Daily Scrum:**  Daily Scrum toplantıları Whatsapp ve Discord üzerinden devam etmiştir. Discord'da haftada birkaç gün toplantılar yapılmıştır. Tasarım bazı ufak değişimler yapılmıştır. . Mekanik yazılımlarda, modellemelerde ve level design üzerinde çalışılmıştır. "Çalışma arkadaşlarının çoğunluğunun yoğun sınav dönemi olduğu için çalışmalar yavaş ilerlemiştir"<br/>
+- Sprint 2 Daily Scrum Chats:
+  
+![Google link](https://github.com/Afracelik/Grup55/blob/main/images/sprint2-1.png)<br/>
+![Google link](https://github.com/Afracelik/Grup55/blob/main/images/sprint2-2.png)<br/>
+![Google link](https://github.com/Afracelik/Grup55/blob/main/images/sprint2-d1.png)<br/>
+![Google link](https://github.com/Afracelik/Grup55/blob/main/images/sprint2-level.png)<br/>
+
+- **Sprint board update**: Sprint board ekran görüntüsü:<br/>
+
+![Google link](https://github.com/Afracelik/Grup55/blob/main/images/sprint2-b1.png)<br/>
 
