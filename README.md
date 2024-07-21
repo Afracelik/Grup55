@@ -74,3 +74,16 @@ Map üzerinde yoğunlaşılmasına karar verilmiştir.
 
 ![Google link](https://github.com/Afracelik/Grup55/blob/main/images/sprint2-b1.png)<br/>
 
+- **Sprint Review:** Sprint 2'nin sonunda takım olarak discord kanalında toplanarak sprint gözden geçirilmiştir. Güncel takım arkadaşların genel yoğunluk durumuna göre değerlendirme yaparak çalışmada iyileştirme gerçekleştirildi. Tasarım dili karar verilmiş ve oyuna entegre edilmiştir.<br/>
+- **Sprint Review katılımcıları:** Afra Çelik - Abdullah Ulutaş - Zeynep Sena Tatlı - Abide Begüm Somuncuoğlu - Abdülkadir Erdek.
+
+- **Sprint Retrospective:**
+Takım üyelerinin bir sonraki sprint'te aktif olması gerektiğine vurgu yapılmıştır.
+Level design'da hızlı bir şekilde ilerleme kat edebilmek için çalışmalara hız verilmiştir. 
+Karakterin çoğu animasyonları ve mekanikleri entegre edilmiştir.
+Maplerin birleşimi ve  bitmiş karakter ve platform animasyonları eklenilmesi için not alınmıştır.
+İkinci Map'e başlanılmış, karekterlerin tamamlanıp oyuna entegre edilmesi için not alınmıştır.
+Haftada yapılan toplantıların uzunluğunun artması ve alınan karkarların yerine getirilmesi için not alınmıştır.
+UI'da çalışmalar başlanması için not alınmıştır.
+
+
