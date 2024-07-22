@@ -53,12 +53,12 @@ Oyunda kullanacağımız asetlerden birkaçı üzerinde çalımalarımız:<br/>
 - **Sprint Review:** Map tasarımı,  karakterin kullanımı ve oyunun 3D olarak yapılmasına karar verilmiştir.<br/>
 - **Sprint Review katılımcıları:** Afra Çelik - Abdullah Ulutaş - Zeynep Sena Tatlı - Abide Begüm Somuncuoğlu - Abdülkadir Erdek.
 
-- **Sprint Retrospective:**
+- **Sprint Retrospective:**<br/>
 Çalışmada hızlanmaya karar verilmiştir.
 Takım içindeki görev dağılımıyla ilgili düzenleme yapılması kararı alınmıştır.
 Takım üyelerinin gelecek sprintlerde aktif olması gerektiğine vurgu yapılmıştır.
 Map üzerinde yoğunlaşılmasına karar verilmiştir.
-- **Sprint notları:**
+- **Sprint notları:** <br/>
 Level design üzerinde durulması gerktiği not alınmıştır.
 birinci sprint'te takım üyelerinin becerilerini tekrar gözden geçirildi ve bazı görevlerde değişiklik yapılmaya karar verildi.
 
@@ -80,7 +80,7 @@ birinci sprint'te takım üyelerinin becerilerini tekrar gözden geçirildi ve b
 - **Sprint Review:** Sprint 2'nin sonunda takım olarak discord kanalında toplanarak sprint gözden geçirilmiştir. Güncel takım arkadaşların genel yoğunluk durumuna göre değerlendirme yaparak çalışmada iyileştirme gerçekleştirildi. Tasarım dili karar verilmiş ve oyuna entegre edilmiştir.<br/>
 - **Sprint Review katılımcıları:** Afra Çelik - Abdullah Ulutaş - Zeynep Sena Tatlı - Abide Begüm Somuncuoğlu - Abdülkadir Erdek.
 
-- **Sprint Retrospective:**
+- **Sprint Retrospective:** <br/>
 Takım üyelerinin bir sonraki sprint'te aktif olması gerektiğine vurgu yapılmıştır.<br/>
 Level design'da hızlı bir şekilde ilerleme kat edebilmek için çalışmalara hız verilmiştir. <br/>
 Karakterin çoğu animasyonları ve mekanikleri entegre edilmiştir.<br/>
@@ -88,7 +88,7 @@ Maplerin birleşimi ve  bitmiş karakter ve platform animasyonları eklenilmesi 
 İkinci Map'e başlanılmış, karekterlerin tamamlanıp oyuna entegre edilmesi için not alınmıştır.<br/>
 Haftada yapılan toplantıların uzunluğunun artması ve alınan karkarların yerine getirilmesi için not alınmıştır.<br/>
 UI'da çalışmalar başlanması için not alınmıştır.<br/>
-- **Sprint notları:**
+- **Sprint notları:** <br/>
 UI'da ve fragmanda neler yapabiliriz bunları konuştuk ve sprint 3 için hazırlıklar yapıldı.<br/>
 Değiştirilen görevlerde başarı kat edince bu seferki görev dağılımını daha iyi hale getirebildik ve yeni görev dağılımında zaman kazanımına göre ayarladık.<br/>
 Takım üyelerinin yoğunluklarından dolayı proje çalışmasında zorluk çekildi, bundan ötürü zaman kullanımı üğzerinde konuşmamız gerektiğini not aldık.<br/>
