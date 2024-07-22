@@ -81,16 +81,16 @@ birinci sprint'te takım üyelerinin becerilerini tekrar gözden geçirildi ve b
 - **Sprint Review katılımcıları:** Afra Çelik - Abdullah Ulutaş - Zeynep Sena Tatlı - Abide Begüm Somuncuoğlu - Abdülkadir Erdek.
 
 - **Sprint Retrospective:**
-Takım üyelerinin bir sonraki sprint'te aktif olması gerektiğine vurgu yapılmıştır.
-Level design'da hızlı bir şekilde ilerleme kat edebilmek için çalışmalara hız verilmiştir. 
-Karakterin çoğu animasyonları ve mekanikleri entegre edilmiştir.
-Maplerin birleşimi ve  bitmiş karakter ve platform animasyonları eklenilmesi için not alınmıştır.
-İkinci Map'e başlanılmış, karekterlerin tamamlanıp oyuna entegre edilmesi için not alınmıştır.
-Haftada yapılan toplantıların uzunluğunun artması ve alınan karkarların yerine getirilmesi için not alınmıştır.
-UI'da çalışmalar başlanması için not alınmıştır.
+Takım üyelerinin bir sonraki sprint'te aktif olması gerektiğine vurgu yapılmıştır.<br/>
+Level design'da hızlı bir şekilde ilerleme kat edebilmek için çalışmalara hız verilmiştir. <br/>
+Karakterin çoğu animasyonları ve mekanikleri entegre edilmiştir.<br/>
+Maplerin birleşimi ve  bitmiş karakter ve platform animasyonları eklenilmesi için not alınmıştır.<br/>
+İkinci Map'e başlanılmış, karekterlerin tamamlanıp oyuna entegre edilmesi için not alınmıştır.<br/>
+Haftada yapılan toplantıların uzunluğunun artması ve alınan karkarların yerine getirilmesi için not alınmıştır.<br/>
+UI'da çalışmalar başlanması için not alınmıştır.<br/>
 - **Sprint notları:**
-UI'da ve fragmanda neler yapabiliriz bunları konuştuk ve sprint 3 için hazırlıklar yapıldı.
-değiştirilen görevlerde başarı kat edince bu seferki görev dağılımını daha iyi hale getirebildik ve yeni görev dağılımında zaman kazanımına göre ayarladık.
-Takım üyelerinin yoğunluklarından dolayı proje çalışmasında zorluk çekildi, bundan ötürü zaman kullanımı üğzerinde konuşmamız gerektiğini not aldık.
+UI'da ve fragmanda neler yapabiliriz bunları konuştuk ve sprint 3 için hazırlıklar yapıldı.<br/>
+Değiştirilen görevlerde başarı kat edince bu seferki görev dağılımını daha iyi hale getirebildik ve yeni görev dağılımında zaman kazanımına göre ayarladık.<br/>
+Takım üyelerinin yoğunluklarından dolayı proje çalışmasında zorluk çekildi, bundan ötürü zaman kullanımı üğzerinde konuşmamız gerektiğini not aldık.<br/>
 
 
