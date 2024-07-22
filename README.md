@@ -58,6 +58,9 @@ Oyunda kullanacağımız asetlerden birkaçı üzerinde çalımalarımız:<br/>
 Takım içindeki görev dağılımıyla ilgili düzenleme yapılması kararı alınmıştır.
 Takım üyelerinin gelecek sprintlerde aktif olması gerektiğine vurgu yapılmıştır.
 Map üzerinde yoğunlaşılmasına karar verilmiştir.
+- **Sprint notları:**
+Level design üzerinde durulması gerktiği not alınmıştır.
+birinci sprint'te takım üyelerinin becerilerini tekrar gözden geçirildi ve bazı görevlerde değişiklik yapılmaya karar verildi.
 
 # Sprint 2
 - 2 sprintte ekip ardaşlarının görevlerini bitirmesiyle toplanan puan 150, belirlenen hedefe ulaşılmıştır 💫.
@@ -85,5 +88,9 @@ Maplerin birleşimi ve  bitmiş karakter ve platform animasyonları eklenilmesi 
 İkinci Map'e başlanılmış, karekterlerin tamamlanıp oyuna entegre edilmesi için not alınmıştır.
 Haftada yapılan toplantıların uzunluğunun artması ve alınan karkarların yerine getirilmesi için not alınmıştır.
 UI'da çalışmalar başlanması için not alınmıştır.
+- **Sprint notları:**
+UI'da ve fragmanda neler yapabiliriz bunları konuştuk ve sprint 3 için hazırlıklar yapıldı.
+değiştirilen görevlerde başarı kat edince bu seferki görev dağılımını daha iyi hale getirebildik ve yeni görev dağılımında zaman kazanımına göre ayarladık.
+Takım üyelerinin yoğunluklarından dolayı proje çalışmasında zorluk çekildi, bundan ötürü zaman kullanımı üğzerinde konuşmamız gerektiğini not aldık.
 
 
