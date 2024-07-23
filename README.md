@@ -29,9 +29,10 @@ The life dept; orta çağ fantezi türünde, 3D, birincil şahıs bakış açıs
 
 # Sprint 1
 - Sprint içinde tamamlanması tahmin edilen puan: 100 Puan
-- **Puan tamamlama mantığı:** Toplamda proje boyunca tamamlanması gereken 500 puanlık backlog bulunmaktadır. Puanlama sistemi şu şekildedir: 1 sprint (150), 2 sprint (150), 3 sprint (200). 1 sprintte ekip ardaşlarının görevlerini bitirmesiyle toplanan puan 150, belirlenen hedefe ulaşılmıştır 💫.
+- **Puan tamamlama mantığı:**
+- Toplamda proje boyunca tamamlanması gereken 500 puanlık backlog bulunmaktadır. Puanlama sistemi şu şekildedir: 1 sprint (150), 2 sprint (150), 3 sprint (200). 1 sprintte ekip ardaşlarının görevlerini bitirmesiyle toplanan puan 150, belirlenen hedefe ulaşılmıştır 💫.
 
-- **Daily Scrum:** Daily Scrum görüşmelerimizi WhatsApp üzerinden yapmaya karar verilmiştir. Buradaki çalışmalar Discord üzerinden toplanarak yapılmıştır. Daily Scrum görüşme ve toplantı örneği aşağıdaki görsellerde bulunmaktadır.<br/>
+- **Daily Scrum:** <br/>Daily Scrum görüşmelerimizi WhatsApp üzerinden yapmaya karar verilmiştir. Buradaki çalışmalar Discord üzerinden toplanarak yapılmıştır. Daily Scrum görüşme ve toplantı örneği aşağıdaki görsellerde bulunmaktadır.<br/>
 - Sprint 1 Daily Scrum Chats:
   
 ![Google link](https://github.com/Afracelik/Grup55/blob/main/images/sprin1-discord2.png)<br/>
@@ -59,8 +60,15 @@ Takım içindeki görev dağılımıyla ilgili düzenleme yapılması kararı al
 Takım üyelerinin gelecek sprintlerde aktif olması gerektiğine vurgu yapılmıştır.
 Map üzerinde yoğunlaşılmasına karar verilmiştir.
 - **Sprint notları:** <br/>
-Level design üzerinde durulması gerktiği not alınmıştır.
-birinci sprint'te takım üyelerinin becerilerini tekrar gözden geçirildi ve bazı görevlerde değişiklik yapılmaya karar verildi.
+Birinci sprintte hedeflenen görevler:
+Görevlerin Tanımlanması: Sprint başlamadan önce yapılacak işlerin açıkça tanımlanması ve liste haline getirilmesi.<br/>
+Öncelik Sırası: Görevlerin önem sırasına göre belirlenmesi ve öncelik verilmesi.<br/>
+Zaman Çerçevesi: Sprintin ne kadar süreceğinin belirlenmesi.<br/>
+Ekip Üyelerinin Görev Dağılımı: Ekip üyelerinin her bir görev için sorumluluklarının belirlenmesi ve dağıtılması.<br/>
+Görevlerin Tahmini: Her bir görevin ne kadar zaman ve kaynak gerektireceğinin tahmin edilmesi.<br/>
+Asset Araştırmaları: Hangi programların kullanılacağı ve karakter üzerinde çalışılacağına dair araştırmalar yapılması.<br/>
+Level Design Üzerinde Durulması: Level tasarımıyla ilgili özel notların alınması ve üzerinde çalışılması.<br/>
+Birinci sprintte ayrıca takım üyelerinin becerileri gözden geçirilmiş ve bazı görevlerde değişiklik yapılmıştır. Bu düzenlemeler, sprintin verimliliğini artırmaya yönelik yapılan adaptasyonlardır.<br/>
 
 # Sprint 2
 - 2 sprintte ekip ardaşlarının görevlerini bitirmesiyle toplanan puan 150, belirlenen hedefe ulaşılmıştır 💫.
@@ -89,8 +97,9 @@ Maplerin birleşimi ve  bitmiş karakter ve platform animasyonları eklenilmesi 
 Haftada yapılan toplantıların uzunluğunun artması ve alınan karkarların yerine getirilmesi için not alınmıştır.<br/>
 UI'da çalışmalar başlanması için not alınmıştır.<br/>
 - **Sprint notları:** <br/>
-UI'da ve fragmanda neler yapabiliriz bunları konuştuk ve sprint 3 için hazırlıklar yapıldı.<br/>
-Değiştirilen görevlerde başarı kat edince bu seferki görev dağılımını daha iyi hale getirebildik ve yeni görev dağılımında zaman kazanımına göre ayarladık.<br/>
-Takım üyelerinin yoğunluklarından dolayı proje çalışmasında zorluk çekildi, bundan ötürü zaman kullanımı üğzerinde konuşmamız gerektiğini not aldık.<br/>
+UI ve fragman geliştirmeleri üzerinde odaklandık ve sprint 3 için hazırlıklar başlatıldı.<br/>
+Değiştirilen görevlerde elde edilen ilerlemelerle birlikte yeni görev dağılımını daha etkin hale getirdik ve zaman kazancına odaklandık.<br/>
+Takım üyelerinin yoğunluklarından dolayı proje ilerlemesinde zorluklar yaşandı; bu nedenle zaman yönetimi üzerine derinlemesine konuştuk ve iyileştirmeler planlandı.<br/>
+Bu düzenleme, sprintin önemli gelişmelerini ve zorluklarını daha kapsamlı bir şekilde yansıtmayı hedeflemektedir. UI ve fragman geliştirmeleri için sprint 3'e yönelik hazırlıkların başlatılması, yeni görev dağılımının etkinleştirilmesi ve zaman yönetimi üzerine yapılan planlamalar sprintin ilerlemesini desteklemektedir.<br/>
 
 
