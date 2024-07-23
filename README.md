@@ -71,7 +71,7 @@ Level Design Üzerinde Durulması: Level tasarımıyla ilgili özel notların al
 Birinci sprintte ayrıca takım üyelerinin becerileri gözden geçirilmiş ve bazı görevlerde değişiklik yapılmıştır. Bu düzenlemeler, sprintin verimliliğini artırmaya yönelik yapılan adaptasyonlardır.<br/>
 
 # Sprint 2
-- 2 sprintte ekip ardaşlarının görevlerini bitirmesiyle toplanan puan 150, belirlenen hedefe ulaşılmıştır 💫.
+- Her bir görev sprint planlaması sırasında 25 puan olarak atanmıştır, toplam sprint puanı ise 150 puandır. Bu puanlama sistemi, sprint boyunca tamamlanan görevlerin sayısını ve karmaşıklığını ölçmek için kullanılmaktadır. Bu sprint süresince belirlenen tüm görevler tamamlanmıştır ve toplam 150 puan alınmıştır. 💫.
 
 - **Daily Scrum:**  Daily Scrum toplantıları Whatsapp ve Discord üzerinden devam etmiştir. Discord'da haftada birkaç gün toplantılar yapılmıştır. Tasarım bazı ufak değişimler yapılmıştır. . Mekanik yazılımlarda, modellemelerde ve level design üzerinde çalışılmıştır. "Çalışma arkadaşlarının çoğunluğunun yoğun sınav dönemi olduğu için çalışmalar yavaş ilerlemiştir"<br/>
 - Sprint 2 Daily Scrum Chats:
