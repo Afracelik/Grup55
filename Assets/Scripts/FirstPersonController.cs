@@ -118,7 +118,7 @@ public class FirstPersonController : MonoBehaviour
     public int attackDamage = 20;
     public float parryDuration = 0.25f; // Parry süresi
     public LayerMask attackLayer;
-    bool attacking = false;
+    public bool attacking = false;
     bool readyToAttack = true;
     int attackCount;
 
