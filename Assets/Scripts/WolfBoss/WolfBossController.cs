@@ -27,46 +27,23 @@ public class WolfBossController : MonoBehaviour
     void Update()
     {
 
-        //bool isAttack1Playing = animator_player.GetCurrentAnimatorStateInfo(0).IsName("Attack1");
-
-
         time++;
 
-        // Eðer frame sayacý belirli bir deðere ulaþtýysa
         if (time >= 30)
         {
-            // Ataðý kontrol et
             beingAttacked = firstPersonController.attacking;
 
-            // Diðer kontrol ve iþlemleri yap
-            if (beingAttacked && beingAttacked2)
+            if (health > 0)
             {
-                takeDamage(2);
+                if (beingAttacked && beingAttacked2)
+                {
+                    takeDamage(10);
+                }
             }
 
-            // Frame sayacýný sýfýrla
             time = 0;
         }
 
-
-        //beingAttacked = firstPersonController.attacking;
-        //Debug.Log(beingAttacked);
-
-        //time = 0;
-        //while (time < 30)
-        //{
-        //    time += 1;
-        //    Debug.Log(time);
-        //}
-
-
-        //if (health > 0)
-        //{
-        //    if (beingAttacked && beingAttacked2)
-        //    {
-        //        takeDamage(2);
-        //    }
-        //}
     }
 
     public void takeDamage(int damage)
@@ -85,15 +62,22 @@ public class WolfBossController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        //
+    }
+
+    private void OnTriggerStay(Collider other)
+    {
         if (other.tag == "Axe")
         {
             beingAttacked2 = true;
-            Debug.Log("çarpýþma");
-        } else
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.tag == "Axe")
         {
             beingAttacked2 = false;
-            Debug.Log("çarpýþma yoook");
-
         }
     }
 }
