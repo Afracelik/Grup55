@@ -13,6 +13,9 @@ public class WolfBossController : MonoBehaviour
     public bool beingAttacked;
     public bool beingAttacked2;
 
+    public bool attackToEnemy;
+    public bool attackToEnemy2;
+
     public float time = 0;
 
     // Start is called before the first frame update
@@ -70,6 +73,11 @@ public class WolfBossController : MonoBehaviour
         if (other.tag == "Axe")
         {
             beingAttacked2 = true;
+        }
+
+        if (other.tag == "Player")
+        {
+
         }
     }
 
