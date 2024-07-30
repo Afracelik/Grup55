@@ -635,7 +635,7 @@ public class FirstPersonController : MonoBehaviour
 
     
     private bool blockSoundPlayed = false; // Block sesi çalınıp çalınmadığını takip eden bayrak
-    private void ApplyDamage(float dmg)
+    public void ApplyDamage(float dmg)
     {
         // Eğer block yapıyorsak
         if (IsParrying())
@@ -652,17 +652,21 @@ public class FirstPersonController : MonoBehaviour
                     return; // Hasarı uygulama
                 }
             }
-        }
-
-        currentHealth -= dmg;
-        SetHealth(currentHealth);
-
-        onDamage?.Invoke(currentHealth);
-
-        if (damageEffect != null)
+        } else
         {
-            damageEffect.TakeDamage(currentHealth);
+            currentHealth -= dmg;
+            SetHealth(currentHealth);
+
+            onDamage?.Invoke(currentHealth);
+
+            if (damageEffect != null)
+            {
+                damageEffect.TakeDamage(currentHealth);
+            }
+
         }
+
+
             
         if (currentHealth <= 0)
             KillPlayer();
