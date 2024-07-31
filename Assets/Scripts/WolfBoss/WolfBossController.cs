@@ -10,14 +10,13 @@ public class WolfBossController : MonoBehaviour
 
     public GameObject player;
     public FirstPersonController firstPersonController;
+
     public bool beingAttacked;
-    public bool beingAttacked2;
+    public bool beingAttackedArea;
 
     public bool attackToPlayer;
-    public bool attackToPlayer2;
+    public bool attackToPlayerArea;
 
-    public float time = 0;
-    public float time2 = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -31,43 +30,25 @@ public class WolfBossController : MonoBehaviour
     void Update()
     {
 
-        time += 1;
-        time2 += Time.deltaTime;
-
-        if (time >= 30)
+        beingAttacked = firstPersonController.attackingWithHitPoint;
+        if (health > 0)
         {
-            beingAttacked = firstPersonController.attacking;
-
-
-            if (health > 0)
+            if (beingAttacked && beingAttackedArea)
             {
-                if (beingAttacked && beingAttacked2)
-                {
-                    takeDamage(10);
-                }
+                takeDamage(10);
             }
-
-            time = 0;
         }
 
-
-        if (time2 >= 1.7f)
+        if (firstPersonController.currentHealth > 0)
         {
-            attackToPlayer = animator.GetBool("isAttacking");
             print(attackToPlayer);
-
-            if (firstPersonController.currentHealth > 0)
+            if (attackToPlayer && attackToPlayerArea)
             {
-                if (attackToPlayer && attackToPlayer2)
-                {
-                    firstPersonController.ApplyDamage(5);
-                }
+                firstPersonController.ApplyDamage(5);
             }
-
-            time2 = 0.0f;
         }
-        
 
+        attackToPlayer = false;
 
     }
 
@@ -94,12 +75,12 @@ public class WolfBossController : MonoBehaviour
     {
         if (other.tag == "Axe")
         {
-            beingAttacked2 = true;
+            beingAttackedArea = true;
         }
 
         if (other.tag == "Player")
         {
-            attackToPlayer2 = true;
+            attackToPlayerArea = true;
         }
     }
 
@@ -107,12 +88,22 @@ public class WolfBossController : MonoBehaviour
     {
         if (other.tag == "Axe")
         {
-            beingAttacked2 = false;
+            beingAttackedArea = false;
         }
 
         if (other.tag == "Player")
         {
-            attackToPlayer2 = false;
+            attackToPlayerArea = false;
         }
+    }
+
+    public void TriggerEvent()
+    {
+        attackToPlayer = true;
+    }
+
+    public void ResetEvent()
+    {
+        attackToPlayer = false;
     }
 }

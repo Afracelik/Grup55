@@ -120,6 +120,7 @@ public class FirstPersonController : MonoBehaviour
     public bool attacking = false;
     bool readyToAttack = true;
     int attackCount;
+    public bool attackingWithHitPoint = false;
 
     //Animations
     public const string IDLE = "Idle";
@@ -810,5 +811,15 @@ public class FirstPersonController : MonoBehaviour
         }
     }
     //------------------//
+
+    public void TriggerEvent()
+    {
+        attackingWithHitPoint = true;
+    }
+
+    public void ResetEvent()
+    {
+        attackingWithHitPoint = false;
+    }
 
 }

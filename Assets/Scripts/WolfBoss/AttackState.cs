@@ -5,9 +5,9 @@ using UnityEngine;
 
 public class AttackState : StateMachineBehaviour
 {
-
     Transform player;
     float distance;
+    float minDistance = 2.0f; // Minimum distance to the player
 
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
@@ -18,10 +18,15 @@ public class AttackState : StateMachineBehaviour
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-
-        animator.transform.LookAt(player);
-
         distance = Vector3.Distance(player.position, animator.transform.position);
+
+        // Rotate to face the player only if distance is greater than minDistance
+        if (distance > minDistance)
+        {
+            animator.transform.LookAt(player);
+        }
+
+        // Check if the distance is greater than the attack range
         if (distance > 5.5f)
         {
             animator.SetBool("isAttacking", false);
