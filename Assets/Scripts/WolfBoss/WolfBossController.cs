@@ -41,7 +41,6 @@ public class WolfBossController : MonoBehaviour
 
         if (firstPersonController.currentHealth > 0)
         {
-            print(attackToPlayer);
             if (attackToPlayer && attackToPlayerArea)
             {
                 firstPersonController.ApplyDamage(5);

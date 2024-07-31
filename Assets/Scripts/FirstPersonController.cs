@@ -697,7 +697,7 @@ public class FirstPersonController : MonoBehaviour
             HitTarget(hit.point);
 
             if(hit.transform.TryGetComponent<Enemy>(out Enemy T))
-                {
+               {
                     T.TakeDamage(attackDamage);
                     hitEffectInstance = Instantiate(hitEffect, hit.point, Quaternion.LookRotation(hit.normal));
                     Destroy(hitEffectInstance, 0.3f);
