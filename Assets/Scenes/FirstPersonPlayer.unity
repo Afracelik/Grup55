@@ -138,7 +138,7 @@ GameObject:
   - component: {fileID: 39620359}
   - component: {fileID: 39620358}
   - component: {fileID: 39620354}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -180,7 +180,7 @@ Transform:
   m_GameObject: {fileID: 39620349}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.9, z: 0}
+  m_LocalPosition: {x: 0, y: 0.93, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -321,7 +321,7 @@ MonoBehaviour:
   lookSpeedY: 2
   upperLookLimit: 80
   lowerLookLimit: 80
-  jumpForce: 8
+  jumpForce: 6
   gravity: 20
   crouchHeight: 0.5
   standingHeight: 1.8
@@ -335,7 +335,7 @@ MonoBehaviour:
   crouchBobSpeed: 8
   crouchBobAmount: 0.025
   maxHealth: 100
-  timeBeforeRegenStarts: 8
+  timeBeforeRegenStarts: 6
   healthValueIncrement: 1
   healthTimeIncrement: 0.15
   currentHealth: 0
@@ -349,15 +349,14 @@ MonoBehaviour:
   attack2Sound: {fileID: 8300000, guid: f11db4559b3ffff45b62e9327fc5535d, type: 3}
   attack3Sound: {fileID: 8300000, guid: f11db4559b3ffff45b62e9327fc5535d, type: 3}
   blockSound: {fileID: 8300000, guid: b7b5a6156961bac44a67504d42ce6fcf, type: 3}
-  damageSound: {fileID: 8300000, guid: c458b6714dab015479d507b21fd2cead, type: 3}
+  damageSound: {fileID: 8300000, guid: 7c47b20bb9874304a809dc5580d403ba, type: 3}
   hitSound: {fileID: 8300000, guid: 7c47b20bb9874304a809dc5580d403ba, type: 3}
   attackDistance: 1
   attackDelay: 0
   attackDamage: 20
-  parryDuration: 0.5
   attackLayer:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 64
   attacking: 0
   baseStepSpeed: 0.5
   crouchStepMultipler: 1.5
@@ -382,6 +381,10 @@ MonoBehaviour:
   - {fileID: 8300000, guid: f13d580c9a7edc442a3c22f0caea5356, type: 3}
   - {fileID: 8300000, guid: cde89c905b1d0e8438fdd00e9a1846d4, type: 3}
   - {fileID: 8300000, guid: c866fdec166e49a47b11a39e4675b496, type: 3}
+  blockRechargeRate: 4
+  parryDuration: 0.5
+  blockCooldown: 0.1
+  blockCooldownActive: 0
   damageEffect: {fileID: 39620358}
 --- !u!95 &39620355
 Animator:
@@ -440,7 +443,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageImage: {fileID: 830489523}
-  damageSound: {fileID: 8300000, guid: 5c7b6d4002009e842bd2621585546d19, type: 3}
+  damageSound: {fileID: 8300000, guid: 7c47b20bb9874304a809dc5580d403ba, type: 3}
   flashSpeed: 5
   flashColor: {r: 1, g: 0, b: 0, a: 0.1}
 --- !u!114 &39620359
@@ -693,7 +696,7 @@ GameObject:
   - component: {fileID: 517785346}
   - component: {fileID: 517785345}
   - component: {fileID: 517785348}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Trap
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -1098,7 +1101,7 @@ GameObject:
   - component: {fileID: 661662136}
   - component: {fileID: 661662135}
   - component: {fileID: 661662134}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1503,7 +1506,7 @@ GameObject:
   - component: {fileID: 861979979}
   - component: {fileID: 861979981}
   - component: {fileID: 861979980}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -1568,7 +1571,7 @@ Camera:
     height: 1
   near clip plane: 0.01
   far clip plane: 1000
-  field of view: 80
+  field of view: 60
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
@@ -2983,9 +2986,9 @@ GameObject:
   - component: {fileID: 1611220992}
   - component: {fileID: 1611220991}
   - component: {fileID: 1611220995}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Capsule
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3607,7 +3610,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1843901844}
   - component: {fileID: 1843901845}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4652,8 +4655,8 @@ SceneRoots:
   - {fileID: 1257428739}
   - {fileID: 1852164598}
   - {fileID: 517785344}
-  - {fileID: 39620352}
   - {fileID: 1611220994}
+  - {fileID: 39620352}
   - {fileID: 1343534315}
   - {fileID: 531129954}
   - {fileID: 557747845}
