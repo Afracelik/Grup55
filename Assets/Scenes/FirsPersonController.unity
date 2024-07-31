@@ -138,7 +138,7 @@ GameObject:
   - component: {fileID: 39620359}
   - component: {fileID: 39620358}
   - component: {fileID: 39620354}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -180,7 +180,7 @@ Transform:
   m_GameObject: {fileID: 39620349}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.9, z: 0}
+  m_LocalPosition: {x: 0, y: 0.98, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -312,16 +312,16 @@ MonoBehaviour:
   sprintSpeed: 7
   crouchSpeed: 2.2
   slopeSpeed: 3
-  dashDistance: 5
+  dashDistance: 3
   dashCooldown: 1
   dashStaminaCost: 10
-  dashSoundClip: {fileID: 8300000, guid: 88b1cbe3caa3fee4b8b103b5edd7aba9, type: 3}
+  dashSoundClip: {fileID: 8300000, guid: c458b6714dab015479d507b21fd2cead, type: 3}
   dashCanvas: {fileID: 557747844}
   lookSpeedX: 2
   lookSpeedY: 2
   upperLookLimit: 80
   lowerLookLimit: 80
-  jumpForce: 8
+  jumpForce: 7
   gravity: 20
   crouchHeight: 0.5
   standingHeight: 1.8
@@ -335,7 +335,7 @@ MonoBehaviour:
   crouchBobSpeed: 8
   crouchBobAmount: 0.025
   maxHealth: 100
-  timeBeforeRegenStarts: 8
+  timeBeforeRegenStarts: 6
   healthValueIncrement: 1
   healthTimeIncrement: 0.15
   currentHealth: 0
@@ -348,16 +348,19 @@ MonoBehaviour:
   attack1Sound: {fileID: 8300000, guid: f11db4559b3ffff45b62e9327fc5535d, type: 3}
   attack2Sound: {fileID: 8300000, guid: f11db4559b3ffff45b62e9327fc5535d, type: 3}
   attack3Sound: {fileID: 8300000, guid: f11db4559b3ffff45b62e9327fc5535d, type: 3}
-  blockSound: {fileID: 8300000, guid: b7b5a6156961bac44a67504d42ce6fcf, type: 3}
-  damageSound: {fileID: 8300000, guid: c458b6714dab015479d507b21fd2cead, type: 3}
+  blockSound: {fileID: 8300000, guid: 490bfbc72255342408984f60044487de, type: 3}
+  damageSound: {fileID: 8300000, guid: 323e15cfe809e114ab92c9f4b25e8bc2, type: 3}
   hitSound: {fileID: 8300000, guid: 7c47b20bb9874304a809dc5580d403ba, type: 3}
   attackDistance: 1
   attackDelay: 0
   attackDamage: 20
-  parryDuration: 0.5
   attackLayer:
     serializedVersion: 2
+<<<<<<< Updated upstream:Assets/Scenes/FirstPersonPlayer.unity
     m_Bits: 128
+=======
+    m_Bits: 64
+>>>>>>> Stashed changes:Assets/Scenes/FirsPersonController.unity
   baseStepSpeed: 0.5
   crouchStepMultipler: 1.5
   sprintStepMultipler: 0.6
@@ -381,6 +384,10 @@ MonoBehaviour:
   - {fileID: 8300000, guid: f13d580c9a7edc442a3c22f0caea5356, type: 3}
   - {fileID: 8300000, guid: cde89c905b1d0e8438fdd00e9a1846d4, type: 3}
   - {fileID: 8300000, guid: c866fdec166e49a47b11a39e4675b496, type: 3}
+  blockRechargeRate: 4
+  parryDuration: 0.5
+  blockCooldown: 0.1
+  blockCooldownActive: 0
   damageEffect: {fileID: 39620358}
 --- !u!95 &39620355
 Animator:
@@ -697,7 +704,7 @@ GameObject:
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!4 &517785344
 Transform:
@@ -1097,12 +1104,16 @@ GameObject:
   - component: {fileID: 661662136}
   - component: {fileID: 661662135}
   - component: {fileID: 661662134}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< Updated upstream:Assets/Scenes/FirstPersonPlayer.unity
   m_StaticEditorFlags: 0
+=======
+  m_StaticEditorFlags: 40
+>>>>>>> Stashed changes:Assets/Scenes/FirsPersonController.unity
   m_IsActive: 1
 --- !u!64 &661662134
 MeshCollider:
@@ -1302,7 +1313,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!4 &757827095
 Transform:
@@ -1573,7 +1584,11 @@ Camera:
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
+<<<<<<< Updated upstream:Assets/Scenes/FirstPersonPlayer.unity
     m_Bits: 247
+=======
+    m_Bits: 503
+>>>>>>> Stashed changes:Assets/Scenes/FirsPersonController.unity
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -1864,7 +1879,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -5677656070995640799, guid: 84d71d67123cdc34996627f81e61d8b8, type: 3}
       propertyPath: m_Layer
+<<<<<<< Updated upstream:Assets/Scenes/FirstPersonPlayer.unity
       value: 8
+=======
+      value: 9
+>>>>>>> Stashed changes:Assets/Scenes/FirsPersonController.unity
       objectReference: {fileID: 0}
     - target: {fileID: -5633307143768279311, guid: 84d71d67123cdc34996627f81e61d8b8, type: 3}
       propertyPath: m_Layer
@@ -2222,6 +2241,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 84d71d67123cdc34996627f81e61d8b8, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 1437050929478655593, guid: 84d71d67123cdc34996627f81e61d8b8, type: 3}
       propertyPath: m_Layer
       value: 8
@@ -2547,7 +2570,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!4 &1257428739
 Transform:
@@ -2900,7 +2923,7 @@ GameObject:
   - component: {fileID: 1611220992}
   - component: {fileID: 1611220991}
   - component: {fileID: 1611220995}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3532,7 +3555,11 @@ Camera:
   m_Depth: 1
   m_CullingMask:
     serializedVersion: 2
+<<<<<<< Updated upstream:Assets/Scenes/FirstPersonPlayer.unity
     m_Bits: 256
+=======
+    m_Bits: 512
+>>>>>>> Stashed changes:Assets/Scenes/FirsPersonController.unity
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -3561,7 +3588,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &1852164595
 BoxCollider:
@@ -4025,7 +4052,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &2071564613
 BoxCollider:
@@ -4124,8 +4151,8 @@ SceneRoots:
   - {fileID: 1257428739}
   - {fileID: 1852164598}
   - {fileID: 517785344}
-  - {fileID: 39620352}
   - {fileID: 1611220994}
+  - {fileID: 39620352}
   - {fileID: 1343534315}
   - {fileID: 531129954}
   - {fileID: 557747845}

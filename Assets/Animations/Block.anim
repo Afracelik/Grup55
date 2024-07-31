@@ -18,7 +18,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.11666667
+        time: 0.016666668
         value: {x: -137.139, y: 90, z: -157.469}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
@@ -34,7 +34,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.11666667
+        time: 0.016666668
         value: {x: 22.378, y: -1.167, z: 1.848}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
@@ -50,7 +50,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.11666667
+        time: 0.016666668
         value: {x: 19.556, y: 10.839, z: 34.855}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
@@ -67,7 +67,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.11666667
+        time: 0.016666668
         value: {x: -1.3692249, y: -1.7468206, z: -0.22296536}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
@@ -83,7 +83,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.11666667
+        time: 0.016666668
         value: {x: -0.00001398474, y: 0.2895478, z: 0.000022366641}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
@@ -99,7 +99,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.11666667
+        time: 0.016666668
         value: {x: -0.000003896654, y: 0.3041741, z: -0.000081219834}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
@@ -181,7 +181,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.11666667
+    m_StopTime: 0.016666668
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -202,7 +202,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.11666667
+        time: 0.016666668
         value: -1.3692249
         inSlope: 0
         outSlope: 0
@@ -223,7 +223,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.11666667
+        time: 0.016666668
         value: -1.7468206
         inSlope: 0
         outSlope: 0
@@ -244,7 +244,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.11666667
+        time: 0.016666668
         value: -0.22296536
         inSlope: 0
         outSlope: 0
@@ -265,7 +265,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.11666667
+        time: 0.016666668
         value: -137.139
         inSlope: 0
         outSlope: 0
@@ -286,7 +286,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.11666667
+        time: 0.016666668
         value: 90
         inSlope: 0
         outSlope: 0
@@ -307,7 +307,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.11666667
+        time: 0.016666668
         value: -157.469
         inSlope: 0
         outSlope: 0
@@ -328,7 +328,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.11666667
+        time: 0.016666668
         value: -0.00001398474
         inSlope: 0
         outSlope: 0
@@ -349,7 +349,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.11666667
+        time: 0.016666668
         value: 0.2895478
         inSlope: 0
         outSlope: 0
@@ -370,7 +370,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.11666667
+        time: 0.016666668
         value: 0.000022366641
         inSlope: 0
         outSlope: 0
@@ -391,7 +391,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.11666667
+        time: 0.016666668
         value: 22.378
         inSlope: 0
         outSlope: 0
@@ -412,7 +412,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.11666667
+        time: 0.016666668
         value: -1.167
         inSlope: 0
         outSlope: 0
@@ -433,7 +433,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.11666667
+        time: 0.016666668
         value: 1.848
         inSlope: 0
         outSlope: 0
@@ -454,7 +454,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.11666667
+        time: 0.016666668
         value: -0.000003896654
         inSlope: 0
         outSlope: 0
@@ -475,7 +475,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.11666667
+        time: 0.016666668
         value: 0.3041741
         inSlope: 0
         outSlope: 0
@@ -496,7 +496,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.11666667
+        time: 0.016666668
         value: -0.000081219834
         inSlope: 0
         outSlope: 0
@@ -517,7 +517,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.11666667
+        time: 0.016666668
         value: 19.556
         inSlope: 0
         outSlope: 0
@@ -538,7 +538,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.11666667
+        time: 0.016666668
         value: 10.839
         inSlope: 0
         outSlope: 0
@@ -559,7 +559,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.11666667
+        time: 0.016666668
         value: 34.855
         inSlope: 0
         outSlope: 0
@@ -584,7 +584,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Main Camera/Hand/Armature/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm
+    path: Main Camera/Hand
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -596,7 +596,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Main Camera/Hand/Armature/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm
+    path: Main Camera/Hand
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -608,7 +608,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Main Camera/Hand/Armature/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm
+    path: Main Camera/Hand
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -620,7 +620,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Main Camera/Hand
+    path: Main Camera/Hand/Armature/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -632,7 +632,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Main Camera/Hand
+    path: Main Camera/Hand/Armature/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -644,7 +644,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Main Camera/Hand
+    path: Main Camera/Hand/Armature/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm
     classID: 4
     script: {fileID: 0}
     flags: 0

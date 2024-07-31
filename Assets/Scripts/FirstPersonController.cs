@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Microsoft.Unity.VisualStudio.Editor;
 using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -116,7 +117,6 @@ public class FirstPersonController : MonoBehaviour
     public float attackDelay = 0.4f; // Saldırı cool down süresi
     private float attackSpeed = 0.4f;
     public int attackDamage = 20;
-    public float parryDuration = 0.25f; // Parry süresi
     public LayerMask attackLayer;
     bool attacking = false;
     bool readyToAttack = true;
@@ -144,6 +144,17 @@ public class FirstPersonController : MonoBehaviour
     //[SerializeField] private AudioClip[] clip3 = default;
     private float footstepTimer = 0;
     private float GetCurrentOffset => isCrouching ? baseStepSpeed * crouchStepMultipler : IsSprinting ? baseStepSpeed * sprintStepMultipler : baseStepSpeed;
+    
+    
+    [Header("Block Bar Parameters")]
+    public float blockRechargeRate = 4f;
+    public float parryDuration = 0.1f; // Parry süresi
+    public float blockCooldown = 0.1f; // Blok animasyonu sonrası bekleme süresi
+    public bool blockCooldownActive = false;
+    private bool isBlocking = false;
+    private bool blockSoundPlayed = false; // Block sesi çalınıp çalınmadığını takip eden bayrak
+
+    
     
     //sliding parameters
     private Vector3 hitPointNormal;
@@ -586,9 +597,9 @@ public class FirstPersonController : MonoBehaviour
 
 
     
-    //-----------------//
-    //     ATTACK      //
-    //                 //
+    //---------------------//
+    //     ATTACK/BLOCK   //
+    //                    //
     private void HandleAttack()
     {
         if(ShouldCombat)
@@ -626,15 +637,14 @@ public class FirstPersonController : MonoBehaviour
         readyToAttack = true;
     }
 
-//onemli burası hasar alınırken kullanılacak, değerlerin 0 ın altına düşmesini engelliyor  
+    //onemli burası hasar alınırken kullanılacak, değerlerin 0 ın altına düşmesini engelliyor  
     private void SetHealth(float value)
-{
+    {
     currentHealth = Mathf.Clamp(value, 0, maxHealth);
-}
-//
+    }
+    //
 
-    
-    private bool blockSoundPlayed = false; // Block sesi çalınıp çalınmadığını takip eden bayrak
+    public DamageEffect damageEffect;
     private void ApplyDamage(float dmg)
     {
         // Eğer block yapıyorsak
@@ -645,17 +655,17 @@ public class FirstPersonController : MonoBehaviour
             // Block sırasında çarpışmayı kontrol et
             if (Physics.Raycast(playerCamera.transform.position, playerCamera.transform.forward, out hit, attackDistance))
             {
-                if (hit.transform.CompareTag("Enemy"))
-                {
+                
                     // Enemy tag'ine sahip objelere karşı block yapıldığında hasar alınmaz
                     PlayBlockSound(); // Block sesini çal
                     return; // Hasarı uygulama
-                }
+                
             }
         }
 
         currentHealth -= dmg;
         SetHealth(currentHealth);
+        
 
         onDamage?.Invoke(currentHealth);
 
@@ -719,41 +729,38 @@ public class FirstPersonController : MonoBehaviour
     {
         if (ShouldParry)
         {
-            if (Input.GetMouseButtonDown(1))
+            if (Input.GetMouseButtonDown(1) && !isBlocking && !blockCooldownActive)
             {
-                if (!animator.GetBool("Blocked"))
-                {
-                    // Parry animasyonunu başlat
-                    animator.SetBool("Blocked", true);
+                // Parry animasyonunu başlat
+                animator.SetBool("Blocked", true);
+                isBlocking = true;
 
-                    // Diğer saldırıları iptal et
-                    attacking = false;
-                    readyToAttack = true;
-                    attackCount = 0;
+                // Blok sırasında hasar almamak için
+                StartCoroutine(CheckParryCollision());
 
-                    StartCoroutine(CheckParryCollision());
-                }
-            }
-            if (Input.GetMouseButtonUp(1)) // Sağ mouse tuşu bırakıldığında
-            {
-                if (animator.GetBool("Blocked"))
-                {
-                    // Parry animasyonunu durdur ve idle'a dön
-                    animator.SetBool("Blocked", false);
-                }
+                // Blok animasyonu süresi boyunca diğer animasyonları devre dışı bırak
+                StartCoroutine(BlockDuration());
             }
         }
     }
 
-    private IEnumerator ResetToIdleAfterParry() //parry = block
+    private IEnumerator BlockDuration()
     {
-        yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length);
+        yield return new WaitForSeconds(parryDuration);
+
+        // Blok animasyonu bitince idle'a dön
         animator.SetBool("Blocked", false);
+        isBlocking = false;
+
+        // Blok animasyonu sonrası bekleme süresi
+        blockCooldownActive = true;
+        yield return new WaitForSeconds(blockCooldown);
+        blockCooldownActive = false;
     }
 
     private IEnumerator CheckParryCollision()
     {
-        yield return new WaitForSeconds(parryDuration);
+        yield return new WaitForSeconds(0.1f); // Blok anında çarpışma kontrolü
 
         RaycastHit hit;
         if (Physics.Raycast(playerCamera.transform.position, playerCamera.transform.forward, out hit, attackDistance))
@@ -761,7 +768,7 @@ public class FirstPersonController : MonoBehaviour
             if (hit.transform.CompareTag("Enemy"))
             {
                 // Çarpışma sesi çal
-                audioSource.PlayOneShot(blockSound);
+                PlayBlockSound();
             }
         }
     }
@@ -770,9 +777,6 @@ public class FirstPersonController : MonoBehaviour
     {
         return animator.GetBool("Blocked");
     }
-    
-    public DamageEffect damageEffect;
-    
     
     private void PlayBlockSound()
     {

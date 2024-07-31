@@ -15,7 +15,11 @@ TagManager:
   - Enemy
   - Player
   - Ground
+<<<<<<< Updated upstream
   - 
+=======
+  - Hand
+>>>>>>> Stashed changes
   - 
   - 
   - 
