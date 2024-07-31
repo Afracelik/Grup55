@@ -21,6 +21,8 @@ public class ChaseStateTroll : StateMachineBehaviour
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         troll.SetDestination(player.position);
+        animator.transform.LookAt(player);
+
 
         distance = Vector3.Distance(player.position, animator.transform.position);
 
