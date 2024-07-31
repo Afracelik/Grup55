@@ -31,8 +31,8 @@ public class IdleState : StateMachineBehaviour
         distance = Vector3.Distance(player.position, animator.transform.position);
         if(distance < chaseRange)
         {
-            animator.SetBool("isWalking", true);
-            animator.SetBool("isChasing", false);
+            animator.SetBool("isWalking", false);
+            animator.SetBool("isChasing", true);
 
         }
     }

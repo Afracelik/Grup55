@@ -663,7 +663,6 @@ public class FirstPersonController : MonoBehaviour
         currentHealth -= dmg;
         SetHealth(currentHealth);
         
-
         onDamage?.Invoke(currentHealth);
 
         if (damageEffect != null)

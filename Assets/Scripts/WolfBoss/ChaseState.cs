@@ -17,7 +17,7 @@ public class ChaseState : StateMachineBehaviour
     {
         wolf = animator.GetComponent<NavMeshAgent>();
         player = GameObject.FindGameObjectWithTag("Player").transform;
-        wolf.speed = 7f;
+        wolf.speed = 6f;
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
