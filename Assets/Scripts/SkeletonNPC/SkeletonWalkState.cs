@@ -6,11 +6,9 @@ using UnityEngine.AI;
 public class SkeletonWalkState : StateMachineBehaviour
 
 {
-
     NavMeshAgent skeleton;
     Transform player;
     float distance;
-
 
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
@@ -27,12 +25,14 @@ public class SkeletonWalkState : StateMachineBehaviour
         //animator.transform.LookAt(player);
 
         distance = Vector3.Distance(player.position, animator.transform.position);
-        //Debug.Log(distance);
-        //Debug.Log("--");
 
         if (distance <= 5.5f)
         {
             animator.SetBool("isAttacking", true);
+        }
+        if (distance >= 10f)
+        {
+            animator.SetBool("isWalking", true);
         }
     }
 
@@ -42,16 +42,5 @@ public class SkeletonWalkState : StateMachineBehaviour
         skeleton.SetDestination(animator.transform.position);
     }
 
-    // OnStateMove is called right after Animator.OnAnimatorMove()
-    //override public void OnStateMove(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
-    //{
-    //    // Implement code that processes and affects root motion
-    //}
-
-    // OnStateIK is called right after Animator.OnAnimatorIK()
-    //override public void OnStateIK(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
-    //{
-    //    // Implement code that sets up animation IK (inverse kinematics)
-    //}
 }
 

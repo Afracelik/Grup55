@@ -6,11 +6,9 @@ using UnityEngine.AI;
 public class WeakSkeletonWalkState : StateMachineBehaviour
 
 {
-
     NavMeshAgent weakskeleton;
     Transform player;
     float distance;
-
 
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
@@ -24,15 +22,16 @@ public class WeakSkeletonWalkState : StateMachineBehaviour
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         weakskeleton.SetDestination(player.position);
-        //animator.transform.LookAt(player);
 
         distance = Vector3.Distance(player.position, animator.transform.position);
-        //Debug.Log(distance);
-        //Debug.Log("--");
 
-        if (distance <= 5.5f)
+        if (distance <= 4f)
         {
             animator.SetBool("isAttacking", true);
+        }
+        if (distance >= 10f)
+        {
+            animator.SetBool("isWalking", true);
         }
     }
 
@@ -41,17 +40,5 @@ public class WeakSkeletonWalkState : StateMachineBehaviour
     {
         weakskeleton.SetDestination(animator.transform.position);
     }
-
-    // OnStateMove is called right after Animator.OnAnimatorMove()
-    //override public void OnStateMove(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
-    //{
-    //    // Implement code that processes and affects root motion
-    //}
-
-    // OnStateIK is called right after Animator.OnAnimatorIK()
-    //override public void OnStateIK(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
-    //{
-    //    // Implement code that sets up animation IK (inverse kinematics)
-    //}
 }
 

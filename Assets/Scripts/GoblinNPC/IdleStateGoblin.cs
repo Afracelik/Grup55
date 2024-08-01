@@ -6,8 +6,7 @@ public class IdleStateGoblin : StateMachineBehaviour
 {
     private GameObject player;
     private Transform playerTransform;
-    public float moveSpeed = 5f;  // NPC'nin hareket hýzý
-    public float detectionRange = 20f;  // NPC'nin hareket etmeye baþlayacaðý mesafe
+    private float detectionRange = 10f;  // NPC'nin hareket etmeye baþlayacaðý mesafe
 
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
@@ -33,12 +32,6 @@ public class IdleStateGoblin : StateMachineBehaviour
             // Eðer mesafe detectionRange'den küçükse NPC'yi hareket ettir ve animasyonu deðiþtir
             if (distance < detectionRange)
             {
-                // Ana karaktere doðru olan yönü hesapla
-                Vector3 direction = (playerTransform.position - animator.transform.position).normalized;
-
-                // NPC'yi bu yönde hareket ettir
-                animator.transform.position += direction * moveSpeed * Time.deltaTime;
-
                 // Animator'daki parametreyi "isWalking" olarak deðiþtir
                 animator.SetBool("isWalking", true);
             }
