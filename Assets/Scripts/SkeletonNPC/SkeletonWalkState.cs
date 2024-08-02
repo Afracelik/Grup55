@@ -30,7 +30,7 @@ public class SkeletonWalkState : StateMachineBehaviour
         {
             animator.SetBool("isAttacking", true);
         }
-        if (distance >= 10f)
+        if (distance >= 50f)
         {
             animator.SetBool("isWalking", true);
         }
