@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
-
+using UnityEngine.SceneManagement;
 public class FirstPersonController : MonoBehaviour
 {
     public bool CanMove {get; private set; } = true;
@@ -218,13 +218,16 @@ public class FirstPersonController : MonoBehaviour
         defaultYPos = playerCamera.transform.localPosition.y;
         currentHealth = maxHealth;
         currentStamina = maxStamina;
+        if(!(PauseControl.gameIsPaused))
+        {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+        }
     }
 
     void Update()
     {
-        if(CanMove)
+        if(CanMove && !(PauseControl.gameIsPaused))
         {
             HandleMovementInput();
             HandleMouseLook();
@@ -684,7 +687,7 @@ public class FirstPersonController : MonoBehaviour
         if (regeneratingHealth != null)
             StopCoroutine(regeneratingHealth);
         
-        print("DEAD");
+        SceneManager.LoadScene(3);
     }
 
     
