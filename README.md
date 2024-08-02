@@ -106,7 +106,7 @@ Bu düzenleme, sprintin önemli gelişmelerini ve zorluklarını daha kapsamlı 
 # Sprint 3
 - Her bir görev sprint planlaması sırasında 20 puan olarak atanmıştır, toplam sprint puanı ise 200 puandır. Bu puanlama sistemi, sprint boyunca tamamlanan görevlerin sayısını ve karmaşıklığını ölçmek için kullanılmaktadır. Bu sprint süresince belirlenen tüm görevler tamamlanmıştır ve toplam 200 puan alınmıştır. :dizzy:.
 - **Daily Scrum:**  Daily Scrum toplantıları genellikle WhatsApp uygulaması üzerinden gerçekleştirilmiştir. Discord üzerinden ise ekran paylaşımı yapılarak proje incelenmiştir. Tasarımda bazı değişiklikler yapılmıştır. Arena ayarları yapılmış, level design üzerinde çalışmalar yapılmış ve kalan düzenlemeler üzerinde çalışılmıştır.<br/>
-- Sprint 2 Daily Scrum Chats:
+- Sprint 3 Daily Scrum Chats:
 ![Google link](https://github.com/Afracelik/Grup55/blob/main/images/wp1.png)<br/>
 ![Google link](https://github.com/Afracelik/Grup55/blob/main/images/wp2.png)<br/>
 ![Google link](https://github.com/Afracelik/Grup55/blob/main/images/wp3.png)<br/>
@@ -122,5 +122,5 @@ Bu düzenleme, sprintin önemli gelişmelerini ve zorluklarını daha kapsamlı 
 - **Sprint Retrospective:** <br/>
 Gelecek projelerde iletişimde kalınacağına dair konuşmalar yapıldı..<br/>
 - **Sprint notları:** <br/>
-“UI ve oyunu tamamlamak için üç kez Discord’da buluştuk ve süreci hızlandırmaya çalıştık. Tamamlandıktan sonra gerekli README dosyası ve form doldurma işlemlerini gerçekleştirdik.<br/>
+UI ve oyunu tamamlamak için üç kez Discord’da buluştuk ve süreci hızlandırmaya çalıştık. Tamamlandıktan sonra gerekli README dosyası ve form doldurma işlemlerini gerçekleştirdik.<br/>
 
