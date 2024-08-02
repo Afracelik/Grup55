@@ -120,7 +120,7 @@ Bu düzenleme, sprintin önemli gelişmelerini ve zorluklarını daha kapsamlı 
 ![Google link](https://github.com/Afracelik/Grup55/blob/main/images/u2.png)<br/>
 ![Google link](https://github.com/Afracelik/Grup55/blob/main/images/u3.png)<br/>
 ![Google link](https://github.com/Afracelik/Grup55/blob/main/images/u4.png)<br/>
-- **Projede Kullanılan Assetler:**
+- **Projede Kullanılan Assetler:**<br/>
 https://assetstore.unity.com/packages/3d/characters/humanoids/fantasy/rpg-skeleton-35463<br/>
 https://assetstore.unity.com/packages/3d/characters/creatures/01-monster-wolf-boss-189463<br/>
 https://assetstore.unity.com/packages/3d/characters/creatures/creature-cave-troll-115707#publisher<br/>
