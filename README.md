@@ -103,3 +103,24 @@ Takım üyelerinin yoğunluklarından dolayı proje ilerlemesinde zorluklar yaş
 Bu düzenleme, sprintin önemli gelişmelerini ve zorluklarını daha kapsamlı bir şekilde yansıtmayı hedeflemektedir. UI ve fragman geliştirmeleri için sprint 3'e yönelik hazırlıkların başlatılması, yeni görev dağılımının etkinleştirilmesi ve zaman yönetimi üzerine yapılan planlamalar sprintin ilerlemesini desteklemektedir.<br/>
 
 
+# Sprint 3
+- Her bir görev sprint planlaması sırasında 20 puan olarak atanmıştır, toplam sprint puanı ise 200 puandır. Bu puanlama sistemi, sprint boyunca tamamlanan görevlerin sayısını ve karmaşıklığını ölçmek için kullanılmaktadır. Bu sprint süresince belirlenen tüm görevler tamamlanmıştır ve toplam 200 puan alınmıştır. :dizzy:.
+- **Daily Scrum:**  Daily Scrum toplantıları genellikle WhatsApp uygulaması üzerinden gerçekleştirilmiştir. Discord üzerinden ise ekran paylaşımı yapılarak proje incelenmiştir. Tasarımda bazı değişiklikler yapılmıştır. Arena ayarları yapılmış, level design üzerinde çalışmalar yapılmış ve kalan düzenlemeler üzerinde çalışılmıştır.<br/>
+- Sprint 2 Daily Scrum Chats:
+![Google link](https://github.com/Afracelik/Grup55/blob/main/images/wp1.png)<br/>
+![Google link](https://github.com/Afracelik/Grup55/blob/main/images/wp2.png)<br/>
+![Google link](https://github.com/Afracelik/Grup55/blob/main/images/wp3.png)<br/>
+- **Sprint board update**: Sprint board ekran görüntüsü:<br/>
+![Google link](https://github.com/Afracelik/Grup55/blob/main/images/trelloooooo3.png)<br/>
+- **Oyun Durumu:** Ekran görüntüleri:
+![Google link](https://github.com/Afracelik/Grup55/blob/main/images/u1.png)<br/>
+![Google link](https://github.com/Afracelik/Grup55/blob/main/images/u2.png)<br/>
+![Google link](https://github.com/Afracelik/Grup55/blob/main/images/u3.png)<br/>
+![Google link](https://github.com/Afracelik/Grup55/blob/main/images/u4.png)<br/>
+- **Sprint Review:** Sprint 3'nin sonunda takım olarak discord kanalında toplanarak sprint gözden geçirilmiştir. Projede tamamlanması gereken tüm detaylar eksiksiz olarak tamamlandı, gerekli düzeltmeler yapıldı ve her şey derlendi. Oyun hikayesinde orta çapta değişiklikler yapılmıştır. Ayrıca, oyunun adı ‘The Life Dept’ yerine ‘Survive in Arena’ olarak değiştirilmiştir. <br/>
+- **Sprint Review katılımcıları:** Afra Çelik - Abdullah Ulutaş - Zeynep Sena Tatlı - Abide Begüm Somuncuoğlu - Abdülkadir Erdek.
+- **Sprint Retrospective:** <br/>
+Gelecek projelerde iletişimde kalınacağına dair konuşmalar yapıldı..<br/>
+- **Sprint notları:** <br/>
+“UI ve oyunu tamamlamak için üç kez Discord’da buluştuk ve süreci hızlandırmaya çalıştık. Tamamlandıktan sonra gerekli README dosyası ve form doldurma işlemlerini gerçekleştirdik.<br/>
+
