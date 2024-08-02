@@ -25,13 +25,13 @@ public class WeakSkeletonWalkState : StateMachineBehaviour
 
         distance = Vector3.Distance(player.position, animator.transform.position);
 
-        if (distance <= 4f)
+        if (distance <= 3.5f)
         {
             animator.SetBool("isAttacking", true);
         }
         if (distance >= 10f)
         {
-            animator.SetBool("isWalking", true);
+            animator.SetBool("isWalking", false);
         }
     }
 

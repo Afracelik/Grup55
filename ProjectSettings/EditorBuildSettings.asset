@@ -6,15 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/MainMenu.unity
+    path: Assets/Scenes/MainMenu.unity
     guid: bd4c194c1e3b92b429f6fec394f97533
   - enabled: 1
-    path: Assets/Scenes/AnaSahne.unity
+    path: Assets/Scenes/UI/AnaSahne.unity
     guid: 15bb8bc47b8921e45b9cff5931419dd3
   - enabled: 1
-    path: Assets/Esc.unity
+    path: Assets/Scenes/UI/Esc.unity
     guid: 889a123a06d37734db0f772229d43836
   - enabled: 1
-    path: Assets/Dead.unity
+    path: Assets/Scenes/UI/Dead.unity
     guid: 9fcca90024ee46e47aa94513a0c21d06
   m_configObjects: {}

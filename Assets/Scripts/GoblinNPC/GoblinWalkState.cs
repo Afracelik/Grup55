@@ -15,7 +15,7 @@ public class GoblinWalkState : StateMachineBehaviour
     {
         goblin = animator.GetComponent<NavMeshAgent>();
         player = GameObject.FindGameObjectWithTag("Player").transform;
-        goblin.speed = 6f;
+        goblin.speed = 4f;
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
@@ -26,13 +26,13 @@ public class GoblinWalkState : StateMachineBehaviour
         distance = Vector3.Distance(player.position, animator.transform.position);
 
 
-        if (distance <= 4f)
+        if (distance <= 3.5f)
         {
             animator.SetBool("isAttacking", true);
         }
         if (distance >= 10f)
         {
-            animator.SetBool("isWalking", true);
+            animator.SetBool("isWalking", false);
         }
     }
 

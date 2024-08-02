@@ -15,7 +15,7 @@ public class SkeletonWalkState : StateMachineBehaviour
     {
         skeleton = animator.GetComponent<NavMeshAgent>();
         player = GameObject.FindGameObjectWithTag("Player").transform;
-        skeleton.speed = 6f;
+        skeleton.speed = 5f;
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
@@ -26,13 +26,13 @@ public class SkeletonWalkState : StateMachineBehaviour
 
         distance = Vector3.Distance(player.position, animator.transform.position);
 
-        if (distance <= 5.5f)
+        if (distance <= 3.5f)
         {
             animator.SetBool("isAttacking", true);
         }
         if (distance >= 10f)
         {
-            animator.SetBool("isWalking", true);
+            animator.SetBool("isWalking", false);
         }
     }
 
