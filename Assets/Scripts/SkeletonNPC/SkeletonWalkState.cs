@@ -26,7 +26,7 @@ public class SkeletonWalkState : StateMachineBehaviour
 
         distance = Vector3.Distance(player.position, animator.transform.position);
 
-        if (distance <= 5.5f)
+        if (distance <= 3.5f)
         {
             animator.SetBool("isAttacking", true);
         }
