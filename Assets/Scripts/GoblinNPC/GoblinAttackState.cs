@@ -22,7 +22,7 @@ public class GoblinAttackState : StateMachineBehaviour
         animator.transform.LookAt(player);
 
         distance = Vector3.Distance(player.position, animator.transform.position);
-        if (distance > 3.5f)
+        if (distance > 4f)
         {
             animator.SetBool("isAttacking", false);
         }

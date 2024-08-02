@@ -6,7 +6,7 @@ public class IdleStateGoblin : StateMachineBehaviour
 {
     private GameObject player;
     private Transform playerTransform;
-    private float detectionRange = 50f;  // NPC'nin hareket etmeye baþlayacaðý mesafe
+    private float detectionRange = 10f;  // NPC'nin hareket etmeye baþlayacaðý mesafe
 
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {

@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class DeadMenu : MonoBehaviour
 {
     void Start(){
-        Cursor.visible = true;
+        //Cursor.visible = true;
     }
     
     public void LoadMainMenu()
