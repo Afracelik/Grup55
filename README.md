@@ -27,6 +27,9 @@ The life dept; orta çağ fantezi türünde, 3D, birincil şahıs bakış açıs
 - Hikaye ve deneyim sevenler<br/>
 - Lineer ilerlemeli oyun sevenler<br/>
 
+# Projenin videosu
+https://www.youtube.com/watch?v=m5Nxhunw0Ik
+
 # Sprint 1
 - Sprint içinde tamamlanması tahmin edilen puan: 100 Puan
 - **Puan tamamlama mantığı:**
@@ -117,6 +120,13 @@ Bu düzenleme, sprintin önemli gelişmelerini ve zorluklarını daha kapsamlı 
 ![Google link](https://github.com/Afracelik/Grup55/blob/main/images/u2.png)<br/>
 ![Google link](https://github.com/Afracelik/Grup55/blob/main/images/u3.png)<br/>
 ![Google link](https://github.com/Afracelik/Grup55/blob/main/images/u4.png)<br/>
+- **Projede Kullanılan Assetler:**
+ ![Google link](https://assetstore.unity.com/packages/3d/characters/humanoids/fantasy/rpg-skeleton-35463)<br/>
+ ![Google link](https://assetstore.unity.com/packages/3d/characters/creatures/01-monster-wolf-boss-189463)<br/>
+ ![Google link](https://assetstore.unity.com/packages/3d/characters/creatures/creature-cave-troll-115707#publisher)<br/>
+ ![Google link](https://assetstore.unity.com/packages/3d/characters/humanoids/3d-stylized-goblin-animations-252473 )<br/>
+ ![Google link](https://www.mixamo.com/#/?page=1&query=brute&type=Character)<br/>
+ ![Google link](https://devassets.com/assets/medieval-arena/)<br/>
 - **Sprint Review:** Sprint 3'nin sonunda takım olarak discord kanalında toplanarak sprint gözden geçirilmiştir. Projede tamamlanması gereken tüm detaylar eksiksiz olarak tamamlandı, gerekli düzeltmeler yapıldı ve her şey derlendi. Oyun hikayesinde orta çapta değişiklikler yapılmıştır. Ayrıca, oyunun adı ‘The Life Dept’ yerine ‘Survive in Arena’ olarak değiştirilmiştir. <br/>
 - **Sprint Review katılımcıları:** Afra Çelik - Abdullah Ulutaş - Zeynep Sena Tatlı - Abide Begüm Somuncuoğlu - Abdülkadir Erdek.
 - **Sprint Retrospective:** <br/>
